@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* Definerer skrifttype og farve */
+header {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+body {
+	background-color: #4a4a4a;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+img {
+	width: 100%;
+	height: 485px;
+	padding-left: 85px;
+}
+.timelinepic {
+	margin: auto;
+    width: 80%;
+	margin-right: 175px;
+}
+/* placerer menuen i høre side */
+.menu {
+	position: absolute;
+	top: 40px;
+	left: -30px;
+}
+.home, .work, .contact, .about, .timeline {
+	color: white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid white;
+}
+a {
+	text-decoration: none;
+	visited: white; 
+}
+ul {
+	list-style: none;
+}
+.timeline {
+	background-color: #929292;
+}

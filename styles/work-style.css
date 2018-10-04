@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	color: white;
+	background-color: #4a4a4a;
+	font-family: 'Roboto', sans-serif;
+}
+p {
+	font-size: 25pt;
+}
+.indhold {
+	width: 100%;
+	height: auto;
+}
+img {
+	width: 400px;
+	height: auto;
+	padding: 5px;
+	margin-top: 20px;
+}
+p {
+	width: 400px;
+	height: auto;
+	padding: 5px;
+}
+.tmg {
+	width: 818px;
+}
+.kastrup {
+	width: 818px;
+}
+.solnedgang {
+	width: 818px;
+}
+/* placerer menuen i høre side */
+.menu {
+	position: fixed;
+	top: 40px;
+	left: -30px;
+}
+.home, .work, .contact, .about, .timeline {
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+	visited: white; 
+}
+ul {
+	list-style: none;
+	opacity: 0.2;
+	transition-duration: 2s;
+}
+ul:hover {
+	opacity: 1;
+	transition-duration: 2s;
+}
+.work {
+	background-color: #929292;
+}

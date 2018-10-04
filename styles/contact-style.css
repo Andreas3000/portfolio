@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	background-color: #4a4a4a;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+/* placerer hele kontakt formen */
+.tekst-form {
+	width: 30%;
+	margin-left: 150px;
+	margin-top: 20px;
+	float: left;
+}
+/* placerer menuen i høre side */
+.menu {
+	position: absolute;
+	top: 40px;
+	left: -30px;
+}
+.home, .work, .contact, .about, .timeline {
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+}
+/* indikerer hvor du er på siden, i menuen til højre */
+.contact {
+	background-color: #929292;
+}
+/* ingen ændring på link efter tryk */
+a {
+	text-decoration: none;
+	visited: white; 
+}
+ul {
+	list-style: none;
+}
+.tekstboks {
+	width: 295px;
+	height: 100px;
+}
+/* kæmpe rod. Placerer facebook og instagram, plus sidestillet tekst */ 
+.social-media {
+	float: right;
+	margin-top: 25px;
+	margin-right: 250px;
+	width: 30%;
+	height: auto;
+}
+.facebook {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.facebook:hover {
+}
+.facebooktekst {
+	margin-top: 48px;
+}
+.facebooktekst, .instagramtekst {
+	float: right;
+}
+.instagram {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	margin-top: 110px;
+}
+.instagramtekst {
+	margin-top: 150px;
+	margin-right: 165px;
+}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* æstetik for det skrevne på siden */
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #4a4a4a
+}
+h1, p {
+	color: white;
+}
+ul {
+	list-style: none;
+}
+/* placerer teksten */
+.text {
+	width: 400px;
+	height: 400px;
+	margin-left: 150px;
+	margin-top: 50px;
+	
+}
+/* Placering af menu i højre side */
+.menu {
+	position: absolute;
+	top: 40px;
+	left: -30px;
+}
+.home, .work, .contact, .about, .timeline {
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+}
+/* "Knappen" about me lyser grå, så man kan se hvor man er */
+.about {
+	background-color: #929292;
+}
+/* Placering af billedet */
+img {
+	top: 50px;
+	right: 150px;
+	float: right;
+	width: 30%;
+	height: auto;
+	position: absolute;
+	border-radius: 5px;
+}
+/* ingen ænderinger på link efter tryk */
+a {
+	text-decoration: none;
+	visited: white; 
+}

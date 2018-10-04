@@ -1,9 +1,75 @@
 @charset "utf-8";
 /* main portfolio styles */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+body, html {
+	height: 98.5%;
+}
 body {
 	font-family: 'Roboto', sans-serif;
-	
+	background-color: #4a4a4a;
 }
 
+/* Gør så al text er udenpå billedet */
+h1, h2, .menu {
+	position: absolute;
+	color: white;
+}
+/* definerer afstand fra venstre kant af side */
+h1, h2 {
+	left: 155px;
+/* definition af afstand fra top af side */
+}
+h1 {
+	top: 30px;
+}
+h2 {
+	top: 70px;
+}
+
+/* Slut på definition af afstand fra top af side */
+
+/* Sørger for at billedet er placeret fast, og er fuld-skærm */
+.background {
+	background-image: url(../img/solnedgang.PNG);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu {
+	top: 40px;
+	list-style: none;
+	left: -30px;
+}
+ul{
+	list-style: none;
+}
+.home, .work, .contact, .about, .timeline {
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+}
+.home {
+	background:#929292;
+	color: hotpink;
+}
+a {
+	text-decoration: none;
+}
+.home, .timeline, .contact, .work, .about,:visited {
+	color: white;
+	tex-decoration: none;
+}
+.foot {
+	color: white;
+	position: fixed;
+	bottom: 10px;
+	margin-left: 10px;
+	opacity: 0.3;
+	transition-duration: 1.5s;
+}
+.foot:hover {
+	opacity: 1.0;
+	transform-duration: 1.5s;
+}
